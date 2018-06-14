@@ -1,0 +1,8 @@
+class HelloWorld(var name:String) {
+    fun greet() {
+        println("Hello, $name")
+    }
+}
+fun main(args: Array<String>) {
+    HelloWorld("World!").greet()          // 创建一个对象不用 new 关键字
+}
